@@ -7,7 +7,7 @@
   if (typeof process !== "undefined" && process !== null) {
     EventEmitter = require('events').EventEmitter;
   } else {
-    EventEmitter = require('emitter');
+    EventEmitter = require('component-emitter');
   }
 
   Module = (function(_super) {

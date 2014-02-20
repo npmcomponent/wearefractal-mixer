@@ -1,30 +1,8 @@
 {
-   "name":"mixer",
-   "description":"Observable models",
-   "version":"0.0.9",
-   "homepage":"http://github.com/wearefractal/mixer",
-   "repository":"git://github.com/wearefractal/mixer.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*",
-      "uglify-js":"*"
-   },
-   "scripts":{
-      "test":"mocha --compilers coffee:coffee-script"
-   },
-   "engines":{
-      "node":">= 0.4.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/mixer/raw/master/LICENSE"
-      }
-   ]
+  "name": "wearefractal-mixer",
+  "version": "0.0.9",
+  "main": "dist/main.js",
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  }
 }
